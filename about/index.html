@@ -43,7 +43,7 @@
 
 
   <body>
-    <div id="container">
+    <div id="container" class="fullPage">
       <div id="wrap">
         <header id="header">
   <div id="banner"></div>
@@ -64,7 +64,7 @@
         
           <a class="main-nav-link" href="/Toung/">首頁</a>
         
-          <a class="main-nav-link" href="/Toung/archives">小說區</a>
+          <a class="main-nav-link" href="/Toung/blog">小說區</a>
         
           <a class="main-nav-link" href="/Toung/about">關於我</a>
         
@@ -114,7 +114,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://toung0507.github.io/Toung/about/index.html" data-id="clwkxphkc00008gwi2lxo6p9y" data-title="關於我" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="https://toung0507.github.io/Toung/about/index.html" data-id="clwm14j7h0002fwwigpef31fa" data-title="關於我" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -146,7 +146,7 @@
   
     <a href="/Toung/" class="mobile-nav-link">首頁</a>
   
-    <a href="/Toung/archives" class="mobile-nav-link">小說區</a>
+    <a href="/Toung/blog" class="mobile-nav-link">小說區</a>
   
     <a href="/Toung/about" class="mobile-nav-link">關於我</a>
   
@@ -171,6 +171,19 @@
 
 
     </div>
+    <style>
+      .fullPage #main {
+        width: 100%;
+        float: none;
+        margin: 0;
+      }
+
+      .fullPage .article-meta,
+      .fullPage .article-header,
+      .fullPage .article-footer {
+        display: none;
+      }
+    </style>
   </body>
 
 </html>
