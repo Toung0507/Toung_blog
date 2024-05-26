@@ -381,7 +381,6 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -564,6 +563,7 @@ a.article-title:hover {
 .article-entry h5,
 .article-entry h6 {
   line-height: 1.1em;
+  color: #000;
   margin: 1.1em 0;
 }
 .article-entry a {
